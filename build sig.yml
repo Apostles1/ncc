@@ -1,0 +1,9 @@
+{
+  // handler re-run on each build completion
+  // watch errors are reported on "err"
+  handler (({ err, code, map, assets }) => { ... })
+  // handler re-run on each rebuild start
+  rebuild (() => {})
+  // close the watcher
+  void close ();
+}
